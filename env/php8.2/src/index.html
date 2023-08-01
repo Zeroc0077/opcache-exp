@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>文件上传</title>
+</head>
+
+<body>
+    <h1>文件上传</h1>
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+        <label for="file">选择要上传的文件：</label>
+        <input type="file" name="file" id="file"><br><br>
+        <label for="upload_path">指定上传路径：</label>
+        <input type="text" name="upload_path" id="upload_path"><br><br>
+        <button type="submit">上传文件</button>
+    </form>
+</body>
+
+</html>
